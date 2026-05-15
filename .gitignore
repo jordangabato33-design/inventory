@@ -1,0 +1,21 @@
+# IMPORTANT: Never commit the real .env file to GitHub
+# It contains database passwords and Pusher secret keys
+.env
+
+# Composer vendor folder (too large for GitHub)
+vendor/
+
+# XAMPP / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PHP error logs
+*.log
+error_log
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
