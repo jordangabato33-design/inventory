@@ -76,9 +76,9 @@ DB_USER=root
 DB_PASS=
 DB_PORT=3306
 
-PUSHER_APP_ID=paste_here
-PUSHER_APP_KEY=paste_here
-PUSHER_APP_SECRET=paste_here
+PUSHER_APP_ID=
+PUSHER_APP_KEY=
+PUSHER_APP_SECRET=
 PUSHER_APP_CLUSTER=ap1
 ```
 ⚠️ NEVER commit your real `.env` to GitHub. Only commit `.env.example`.
